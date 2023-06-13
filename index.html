@@ -39,7 +39,7 @@
           <ul class="list link header-menu">
             <li class="header-menu-item">
               <a
-                class="header-menu-link link"
+                class="header-menu-link link active"
                 href="./index.html"
                 >Studio</a
               >
@@ -86,7 +86,11 @@
             Effective Solutions for Your Business
           </h1>
 
-          <button class="hero-btn" type="button">
+          <button
+            class="hero-btn"
+            type="button"
+            data-modal-open
+          >
             Order Service
           </button>
         </div>
@@ -521,5 +525,21 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button
+          type="button"
+          class="modal-btn"
+          data-modal-close
+        >
+          <svg class="close-button">
+            <use
+              href="./images/svg-optimized.svg#icon-close-black-1"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
