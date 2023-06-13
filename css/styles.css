@@ -190,7 +190,7 @@ background-image: linear-gradient(to bottom,
 
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: 1440px, cover;
+    background-size: 1440px;
 padding: 188px 0;
 
 
@@ -401,17 +401,64 @@ gap:24px;
 
 width: 16px;
 height: 16px;
-     
-        
-
 }
 
+/* ----------------------CUSTOMERS............... */
+
+.customers {}
+
+.customers-title {
+    margin-top: 120px;
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--primary-black-color);
+}
+
+.customers-item-container {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 168px;
+        height: 88px;
+}
+
+.customers-list {
+    padding-top: 72px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    
+}
+
+.customers-list-item {
+    box-sizing: border-box;
+    
+    
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+}
+
+.customers-icon {
+   
+    height: 56px;
+}
 
 /**-----------------------FOOTER--------------------------*/
 .footer {
+    display: flex;
     background-color:var(--primary-black-color);
     padding: 100px 0;
 }
+.footer-container {
+    display: flex;
+}
+
 
 .footer-logo {
     display: inline-block;
@@ -438,6 +485,46 @@ height: 16px;
         letter-spacing: 0.02em;
         color: var(--primary-white-color)
 }
+
+.footer-social {
+    display: block;
+    padding-left: 120px;
+}
+
+.footer-social-text {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--page-background-colour);
+        padding-bottom: 16px;
+}
+
+.footer-social-list {
+    display: flex;
+    
+        gap: 16px;
+}
+
+.footer-social-item {}
+
+.footer-social-link {
+    display: flex;
+        width: 40px;
+        height: 40px;
+        background-color: #4D5AE5;
+        border-radius: 50% 50%;
+        align-items: center;
+        justify-content: center;
+}
+
+.footer-social-icon {
+    width: 16px;
+        height: 16px;
+}
+
+
+
 /**-----------------------PORTFOLIO HTML--------------------------*/
 .portfolio {
     padding-top: 96px;
