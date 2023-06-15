@@ -471,8 +471,7 @@ font-weight: 700;
 }
 
 .customers-list {
-    padding-top: 72px;
-    padding-bottom: 120px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
