@@ -205,7 +205,8 @@ color: #404bbf;
 }
 /**----------------------MAIN---------------------------*/
 .hero {
-    /* max-width: 1440px; */
+    max-width: 1440px;
+    margin: auto;
 
 background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
